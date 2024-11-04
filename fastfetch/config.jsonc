@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "source": "macos",
+    //"paddingRight": "0"
+    //"type": "small"
+  },
+  "modules": [
+    "title",
+    {
+      "type": "os",
+      "key": "OS"
+    },
+    {
+      "type": "host",
+      "key": "󰇄"
+    },
+    {
+      "type": "kernel",
+      "key": ""
+    },
+    {
+      "type": "uptime",
+      "key": "󰺗"
+    },
+    {
+      "type": "packages",
+      "key": ""
+    },
+    {
+      "type": "shell",
+      "key": ""
+    },
+    {
+      "type": "terminal",
+      "key": ""
+    },
+    {
+      "type": "terminalfont",
+      "key": ""
+    },
+    {
+      "type": "cpu",
+      "key": ""
+    },
+    {
+      "type": "gpu",
+      "key": ""
+    },
+    {
+      "type": "disk",
+      "key": ""
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+export VULKAN_SDK=$/Users/m2air/VulkanSDK/macOS
+export PATH=$VULKAN_SDK/bin:$PATH
+export DYLD_LIBRARY_PATH=$VULKAN_SDK/lib:$DYLD_LIBRARY_PATH
+export VK_ICD_FILENAMES=$VULKAN_SDK/share/vulkan/icd.d/MoltenVK_icd.json
+export VK_LAYER_PATH=$VULKAN_SDK/share/vulkan/explicit_layer.d
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export EDITOR=nvim
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/ys.omp.json)"
+alias yz='yazi'
+alias yzi='yazi'
+alias y='yazi'
+alias ff='fastfetch'
+alias nf='fastfetch'
+alias c='clear'
+alias e='exit'
+alias ls='ls -a'
+alias vi='nvim'
+alias vim='nvim'
+fastfetch
