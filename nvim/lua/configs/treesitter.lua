@@ -13,6 +13,8 @@ local options = {
 		"vim",
 		"vimdoc",
 		"yaml",
+		"javascript",
+		"typescript",
 	},
 
 	sync_install = false,

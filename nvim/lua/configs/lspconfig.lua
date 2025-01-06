@@ -9,10 +9,17 @@ local lspconfig = require("lspconfig")
 lspconfig.servers = {
 	"lua_ls",
 	"clangd",
+	"html",
+	"cssls",
+	"ts_ls",
 }
 
 local nvlsp = require("nvchad.configs.lspconfig")
-local default_servers = {}
+local default_servers = {
+	"cssls",
+	"html",
+	"ts_ls",
+}
 
 for _, lsp in ipairs(default_servers) do
 	lspconfig[lsp].setup({
