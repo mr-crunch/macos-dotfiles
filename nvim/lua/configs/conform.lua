@@ -11,7 +11,7 @@ local options = {
 		["clang-format"] = {
 			prepend_args = {
 				"-style={ \
-        BasedOnStyle: GNU, \
+        BasedOnStyle: Microsoft, \
         IndentWidth: 2,\
         TabWidth: 2,\
         UseTab: Never,\
