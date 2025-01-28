@@ -9,6 +9,7 @@ local options = {
 		"markdown",
 		"make",
 		"printf",
+		"rust",
 		"toml",
 		"vim",
 		"vimdoc",
