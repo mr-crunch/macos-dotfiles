@@ -30,21 +30,6 @@ for _, lsp in ipairs(default_servers) do
 	})
 end
 
-require("lspconfig").rust_analyzer.setup({
-	on_attach = on_attach,
-	on_init = on_init,
-	capabilities = capabilities,
-	filetype = { "rs" },
-	settings = {
-		["rust-analyzer"] = {
-			diagnostics = {
-
-				enable = false,
-			},
-		},
-	},
-})
-
 require("lspconfig").clangd.setup({
 	on_attach = function(client, bufnr)
 		client.server_capabilities.documentFormattingProvider = false
